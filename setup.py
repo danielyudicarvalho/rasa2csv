@@ -1,14 +1,14 @@
 from distutils.core import setup
 setup(
-  name = 'rasa2sheets',         # How you named your package folder (MyLib)
-  packages = ['rasa2sheets'],   # Chose the same as "name"
-  version = '0.0.3',      # Start with a small number and increase it with every change you make
+  name = 'rasa_sheets',         # How you named your package folder (MyLib)
+  packages = ['rasa_sheets'],   # Chose the same as "name"
+  version = '0.0.2',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'Import and export Rasa components to csv/xls',   # Give a short description about your library
   author = 'Daniel Yudi',                   # Type in your xlsname
   author_email = 'danielyudicarvalho@gmail.com',      # Type in your E-Mail
-  url = 'https://github.com/user/reponame',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/user/reponame/archive/v_01.tar.gz',    # I explain this later on
+  url = 'https://github.com/danielyudicarvalho/rasa2csv',   # Provide either the link to your github or to your website
+  download_url = 'https://github.com/danielyudicarvalho/rasa2csv/archive/refs/tags/0.0.1.tar.gz',    # I explain this later on
   keywords = ['RASA', 'SHEETS', 'CSV'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           'validators',

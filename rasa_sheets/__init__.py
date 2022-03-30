@@ -92,8 +92,8 @@ def export(file):
                     
                     
         
-        myvar1.to_csv('spreadsheets/responses.csv', encoding='utf-8')
-        myvar2.to_csv('spreadsheets/faq_responses.csv', encoding='utf-8')
+            myvar1.to_csv('spreadsheets/responses.csv', encoding='utf-8')
+            myvar2.to_csv('spreadsheets/faq_responses.csv', encoding='utf-8')
 
 
 def insert(file):
